@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/WanderGo">
+    <BrowserRouter basename="/WanderGo_website/">
       <Navbar />
       <main>
         <Routes>
