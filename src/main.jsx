@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <LanguageProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/WanderGo/">
           <App />
         </BrowserRouter>
       </AuthProvider>
