@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://rumvannra002-maker.github.io/tourist",
+  "homepage": "https://rumvannra002-maker.github.io/WanderGo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

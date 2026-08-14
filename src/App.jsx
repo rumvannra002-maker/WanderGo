@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <>
+    <BrowserRouter basename="/WanderGo">
       <Navbar />
       <main>
         <Routes>
@@ -19,6 +19,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
